@@ -86,6 +86,7 @@ class tpt_authors_widget extends WP_Widget {
   function form($instance) {	
     $title = esc_attr($instance['title']);
     $gravatar = esc_attr($instance['gravatar']);
+    $name = esc_attr($instance['name']);
     $count = esc_attr($instance['count']);
 		
 ?>
