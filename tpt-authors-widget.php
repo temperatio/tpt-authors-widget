@@ -95,7 +95,7 @@ class tpt_authors_widget extends WP_Widget {
       <input class="widefat" id="<?php echo $this -> get_field_id('title'); ?>" name="<?php echo $this -> get_field_name('title'); ?>" type="text" value="<?php echo $title; ?>" />
     </p>
     <p>
-      <input id="<?php echo $this -> get_field_id('name'); ?>" name="<?php echo $this -> get_field_name('name'); ?>" type="checkbox" value="1" <?php checked('1', $count); ?>/>
+      <input id="<?php echo $this -> get_field_id('name'); ?>" name="<?php echo $this -> get_field_name('name'); ?>" type="checkbox" value="1" <?php checked('1', $name); ?>/>
       <label for="<?php echo $this -> get_field_id('name'); ?>"><?php _e('Display Author Name?'); ?></label> 
     </p>
     <p>
