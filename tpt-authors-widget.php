@@ -26,7 +26,7 @@ class tpt_authors_widget extends WP_Widget {
     $title = apply_filters('widget_title', $instance['title']);
     $gravatar = $instance['gravatar'];
     $count = $instance['count'];
-    $name = $instance['count'];
+    $name = $instance['name'];
 		
 		if(!$size)
       $size = 40;
